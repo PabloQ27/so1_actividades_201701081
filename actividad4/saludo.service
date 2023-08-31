@@ -1,0 +1,9 @@
+[Unit]
+Description=Saludo y fecha actual
+
+[Service]
+Type=simple
+ExecStart=/home/pabloq27/Escritorio/so1_actividades_201701081/actividad4.sh
+
+[Install]
+WantedBy=default.target
